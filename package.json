@@ -1,8 +1,10 @@
 {
-  "name": "foundation-emails-template",
+  "name": "mail_letter",
+  "description": "",
   "version": "1.0.0",
-  "description": "Basic template for a Foundation for Emails project.",
-  "repository": "zurb/foundation-emails-template",
+  "author": "Evgenii Serebriakov",
+  "license": "MIT",
+  "repository": "evgenii-serebriakov/mail_letter.git",
   "main": "gulpfile.babel.js",
   "scripts": {
     "start": "gulp",
@@ -11,10 +13,8 @@
     "litmus": "gulp litmus --production",
     "mail": "gulp mail --production"
   },
-  "author": "ZURB <foundation@zurb.com>",
-  "license": "MIT",
   "dependencies": {
-    "foundation-emails": "^2.2.1"
+    "foundation-emails": "^2.3.1"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",
@@ -47,10 +47,5 @@
     "rimraf": "^2.3.3",
     "siphon-media-query": "^1.0.0",
     "yargs": "^4.1.0"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
   }
 }

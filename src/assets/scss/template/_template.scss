@@ -2,12 +2,6 @@
 // Feel free to remove these styles for production!
 
 // Body Styles 
-body,
-html, 
-.body {
-  background: #f3f3f3 !important;
-}
-
 .container.header {
   background: #f3f3f3;
 }
@@ -56,4 +50,78 @@ table.button.google table td {
 
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+// Custom Styles
+.no-bg {
+  background: transparent !important;
+}
+
+.tiny-text {
+  font-size: 12px;
+}
+
+.basic-link {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.main-sub-heading {
+  color: $grey;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 22px;
+}
+
+.main-body-p {
+  color: $grey;
+  line-height: (22 / 14);
+}
+
+.basic-link {
+  text-decoration: underline;
+  color: #000;
+}
+
+.un-indent {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.decorative-line {
+  width: 100%;
+  height: 2px;
+  background: $grey;
+}
+
+.preview-product {
+  &__item {
+    &-title {
+      text-transform: uppercase;
+      color: $accent;
+      margin-bottom: 5px;
+    }
+
+    &-cost {
+      color: $grey;
+    }
+  }
+}
+
+.item-border {
+  border: 1px solid black; 
 }
